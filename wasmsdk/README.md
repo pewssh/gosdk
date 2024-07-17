@@ -143,7 +143,7 @@ create an allocation
 
 **Output**:
 
-> [transaction.Transaction](https://github.com/0chain/gosdk/blob/e1e35e084d5c17d6bf233bbe8ac9c91701bdd8fd/core/transaction/entity.go#L32)
+> [transaction.Transaction](https://github.com/pewssh/gosdk/blob/e1e35e084d5c17d6bf233bbe8ac9c91701bdd8fd/core/transaction/entity.go#L32)
 
 ### zcn.sdk.listAllocations
 
@@ -155,7 +155,7 @@ list all allocations
 
 **Output**:
 
-> [sdk.Allocation](https://github.com/0chain/gosdk/blob/a9e504e4a0e8fc76a05679e4ef183bb03b8db8e5/zboxcore/sdk/allocation.go#L140) array
+> [sdk.Allocation](https://github.com/pewssh/gosdk/blob/a9e504e4a0e8fc76a05679e4ef183bb03b8db8e5/zboxcore/sdk/allocation.go#L140) array
 
 ### zcn.sdk.getAllocation
 
@@ -167,7 +167,7 @@ get allocation detail
 
 **Output**:
 
-> [sdk.Allocation](https://github.com/0chain/gosdk/blob/a9e504e4a0e8fc76a05679e4ef183bb03b8db8e5/zboxcore/sdk/allocation.go#L140)
+> [sdk.Allocation](https://github.com/pewssh/gosdk/blob/a9e504e4a0e8fc76a05679e4ef183bb03b8db8e5/zboxcore/sdk/allocation.go#L140)
 
 ### zcn.sdk.reloadAllocation
 
@@ -179,7 +179,7 @@ clean cache, and get allocation detail from blockchain
 
 **Output**:
 
-> [sdk.Allocation](https://github.com/0chain/gosdk/blob/a9e504e4a0e8fc76a05679e4ef183bb03b8db8e5/zboxcore/sdk/allocation.go#L140)
+> [sdk.Allocation](https://github.com/pewssh/gosdk/blob/a9e504e4a0e8fc76a05679e4ef183bb03b8db8e5/zboxcore/sdk/allocation.go#L140)
 
 ### zcn.sdk.transferAllocation
 
@@ -239,7 +239,7 @@ returns allocation from authToken
 
 **Output**:
 
-> [sdk.Allocation](https://github.com/0chain/gosdk/blob/a9e504e4a0e8fc76a05679e4ef183bb03b8db8e5/zboxcore/sdk/allocation.go#L140)
+> [sdk.Allocation](https://github.com/pewssh/gosdk/blob/a9e504e4a0e8fc76a05679e4ef183bb03b8db8e5/zboxcore/sdk/allocation.go#L140)
 
 ### zcn.sdk.getReadPoolInfo
 
@@ -251,7 +251,7 @@ gets information about the read pool for the allocation
 
 **Output**:
 
-> [sdk.ReadPool](https://github.com/0chain/gosdk/blob/6878504e4e4d7cb25b2ac819c3c578228b3d3e30/zboxcore/sdk/sdk.go#L167-L169)
+> [sdk.ReadPool](https://github.com/pewssh/gosdk/blob/6878504e4e4d7cb25b2ac819c3c578228b3d3e30/zboxcore/sdk/sdk.go#L167-L169)
 
 ### zcn.sdk.decodeAuthTicket
 
@@ -281,7 +281,7 @@ locks given number of tokens on a provider
 
 **Input**:
 
-> [providerType](https://github.com/0chain/gosdk/blob/bc96f54e68a68ef5d757428b9c4153405ebe4163/zboxcore/sdk/sdk.go#L1186-L1194) uint64, tokens uint64, fee uint64, providerID string,
+> [providerType](https://github.com/pewssh/gosdk/blob/bc96f54e68a68ef5d757428b9c4153405ebe4163/zboxcore/sdk/sdk.go#L1186-L1194) uint64, tokens uint64, fee uint64, providerID string,
 
 **Output**:
 
@@ -293,7 +293,7 @@ unlocks tokens on a provider
 
 **Input**:
 
-> [providerType](https://github.com/0chain/gosdk/blob/bc96f54e68a68ef5d757428b9c4153405ebe4163/zboxcore/sdk/sdk.go#L1186-L1194) uint64, fee uint64, providerID string,
+> [providerType](https://github.com/pewssh/gosdk/blob/bc96f54e68a68ef5d757428b9c4153405ebe4163/zboxcore/sdk/sdk.go#L1186-L1194) uint64, fee uint64, providerID string,
 
 **Output**:
 
@@ -304,11 +304,11 @@ unlocks tokens on a provider
 get the details of the stakepool associated with provider
 **Input**:
 
-> [providerType](https://github.com/0chain/gosdk/blob/bc96f54e68a68ef5d757428b9c4153405ebe4163/zboxcore/sdk/sdk.go#L1186-L1194) int, providerID string
+> [providerType](https://github.com/pewssh/gosdk/blob/bc96f54e68a68ef5d757428b9c4153405ebe4163/zboxcore/sdk/sdk.go#L1186-L1194) int, providerID string
 
 **Output**:
 
-> [sdk.StakePoolInfo](https://github.com/0chain/gosdk/blob/2ec97a9bb116db166e31c0207971282e7008d22c/zboxcore/sdk/sdk.go#L263-L275), err
+> [sdk.StakePoolInfo](https://github.com/pewssh/gosdk/blob/2ec97a9bb116db166e31c0207971282e7008d22c/zboxcore/sdk/sdk.go#L263-L275), err
 
 ### zcn.sdk.getWalletBalance
 
@@ -342,7 +342,7 @@ get blobbers from the network
 
 **Output**:
 
-> array of [sdk.Blobber](https://github.com/0chain/gosdk/blob/6878504e4e4d7cb25b2ac819c3c578228b3d3e30/zboxcore/sdk/sdk.go#L558-L572)
+> array of [sdk.Blobber](https://github.com/pewssh/gosdk/blob/6878504e4e4d7cb25b2ac819c3c578228b3d3e30/zboxcore/sdk/sdk.go#L558-L572)
 
 ### zcn.sdk.createReadPool
 
@@ -366,7 +366,7 @@ send raw SmartContract transaction, and verify result
 
 **Output**:
 
-> > [transaction.Transaction](https://github.com/0chain/gosdk/blob/e1e35e084d5c17d6bf233bbe8ac9c91701bdd8fd/core/transaction/entity.go#L32)
+> > [transaction.Transaction](https://github.com/pewssh/gosdk/blob/e1e35e084d5c17d6bf233bbe8ac9c91701bdd8fd/core/transaction/entity.go#L32)
 
 ### zcn.sdk.faucet
 
@@ -378,7 +378,7 @@ faucet SmartContract
 
 **Output**:
 
-> > [transaction.Transaction](https://github.com/0chain/gosdk/blob/e1e35e084d5c17d6bf233bbe8ac9c91701bdd8fd/core/transaction/entity.go#L32)
+> > [transaction.Transaction](https://github.com/pewssh/gosdk/blob/e1e35e084d5c17d6bf233bbe8ac9c91701bdd8fd/core/transaction/entity.go#L32)
 
 ## Blobber methods
 
