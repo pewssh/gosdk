@@ -1,4 +1,4 @@
-module github.com/0chain/gosdk
+module github.com/pewssh/gosdk
 
 go 1.21
 
