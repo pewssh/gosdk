@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/transaction"
+	"github.com/pewssh/gosdk/core/transaction"
 )
 
 func (ta *TransactionWithAuth) ExecuteSmartContract(address, methodName string, input string, val string) error {

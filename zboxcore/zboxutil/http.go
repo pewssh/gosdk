@@ -17,12 +17,12 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/conf"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/logger"
-	"github.com/0chain/gosdk/zboxcore/blockchain"
-	"github.com/0chain/gosdk/zboxcore/client"
 	"github.com/hitenjain14/fasthttp"
+	"github.com/pewssh/gosdk/core/conf"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/logger"
+	"github.com/pewssh/gosdk/zboxcore/blockchain"
+	"github.com/pewssh/gosdk/zboxcore/client"
 )
 
 const SC_REST_API_URL = "v1/screst/"

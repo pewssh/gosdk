@@ -12,12 +12,12 @@ import (
 	"os"
 	"sync"
 
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/imageutil"
-	"github.com/0chain/gosdk/core/logger"
-	"github.com/0chain/gosdk/zboxcore/sdk"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/imageutil"
+	"github.com/pewssh/gosdk/core/logger"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 var CreateObjectURL func(buf []byte, mimeType string) string

@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0chain/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/encryption"
 )
 
 // Hashnode ref node in hash tree

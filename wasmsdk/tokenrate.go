@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/0chain/gosdk/core/tokenrate"
+	"github.com/pewssh/gosdk/core/tokenrate"
 )
 
 func getUSDRate(symbol string) (float64, error) {

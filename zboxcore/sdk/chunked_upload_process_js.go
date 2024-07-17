@@ -18,13 +18,13 @@ import (
 
 	"github.com/0chain/errors"
 	thrown "github.com/0chain/errors"
-	"github.com/0chain/gosdk/constants"
-	"github.com/0chain/gosdk/wasmsdk/jsbridge"
-	"github.com/0chain/gosdk/zboxcore/logger"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
 	"github.com/hack-pad/go-webworkers/worker"
 	"github.com/hack-pad/safejs"
 	"github.com/hitenjain14/fasthttp"
+	"github.com/pewssh/gosdk/constants"
+	"github.com/pewssh/gosdk/wasmsdk/jsbridge"
+	"github.com/pewssh/gosdk/zboxcore/logger"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 	"golang.org/x/sync/errgroup"
 )
 

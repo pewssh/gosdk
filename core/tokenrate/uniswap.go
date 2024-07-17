@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0chain/gosdk/core/resty"
 	"github.com/machinebox/graphql"
+	"github.com/pewssh/gosdk/core/resty"
 )
 
 type V2Pair struct {

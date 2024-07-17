@@ -6,11 +6,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/0chain/gosdk/constants"
-	"github.com/0chain/gosdk/core/sys"
-	"github.com/0chain/gosdk/zboxcore/fileref"
-	l "github.com/0chain/gosdk/zboxcore/logger"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
+	"github.com/pewssh/gosdk/constants"
+	"github.com/pewssh/gosdk/core/sys"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
+	l "github.com/pewssh/gosdk/zboxcore/logger"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 	"go.uber.org/zap"
 )
 

@@ -3,8 +3,8 @@ package marker
 import (
 	"fmt"
 
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/zboxcore/client"
 )
 
 type DeleteToken struct {

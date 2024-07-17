@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/conf"
-	"github.com/0chain/gosdk/core/node"
-	"github.com/0chain/gosdk/core/util"
+	"github.com/pewssh/gosdk/core/conf"
+	"github.com/pewssh/gosdk/core/node"
+	"github.com/pewssh/gosdk/core/util"
 	"go.uber.org/zap"
 )
 

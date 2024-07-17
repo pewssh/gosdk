@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/encryption"
 	"github.com/tyler-smith/go-bip39"
 )
 

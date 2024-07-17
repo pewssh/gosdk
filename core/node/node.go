@@ -13,11 +13,11 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/block"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/util"
-	"github.com/0chain/gosdk/zboxcore/logger"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/pewssh/gosdk/core/block"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/util"
+	"github.com/pewssh/gosdk/zboxcore/logger"
 )
 
 const statSize = 20

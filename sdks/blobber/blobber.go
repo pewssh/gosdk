@@ -2,7 +2,7 @@
 package blobber
 
 import (
-	"github.com/0chain/gosdk/sdks"
+	"github.com/pewssh/gosdk/sdks"
 )
 
 // Blobber blobber sdk client instance

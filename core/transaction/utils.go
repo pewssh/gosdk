@@ -12,9 +12,9 @@ import (
 
 	"github.com/0chain/common/core/encryption"
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/conf"
-	"github.com/0chain/gosdk/core/resty"
-	"github.com/0chain/gosdk/core/util"
+	"github.com/pewssh/gosdk/core/conf"
+	"github.com/pewssh/gosdk/core/resty"
+	"github.com/pewssh/gosdk/core/util"
 )
 
 const retriesCount = 30

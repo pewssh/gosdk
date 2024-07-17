@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/constants"
-	"github.com/0chain/gosdk/core/util"
+	"github.com/pewssh/gosdk/constants"
+	"github.com/pewssh/gosdk/core/util"
 )
 
 type Hasher interface {

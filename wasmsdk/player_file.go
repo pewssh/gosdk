@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/0chain/gosdk/zboxcore/marker"
-	"github.com/0chain/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/zboxcore/marker"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
 )
 
 type FilePlayer struct {

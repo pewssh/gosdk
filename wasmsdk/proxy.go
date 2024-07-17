@@ -11,13 +11,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0chain/gosdk/core/sys"
-	"github.com/0chain/gosdk/core/version"
-	"github.com/0chain/gosdk/core/zcncrypto"
-	"github.com/0chain/gosdk/wasmsdk/jsbridge"
-	"github.com/0chain/gosdk/zboxcore/client"
-	"github.com/0chain/gosdk/zboxcore/sdk"
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/core/sys"
+	"github.com/pewssh/gosdk/core/version"
+	"github.com/pewssh/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/wasmsdk/jsbridge"
+	"github.com/pewssh/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/zcncore"
 
 	"syscall/js"
 )
@@ -237,7 +237,7 @@ func main() {
 
 				"decodeAuthTicket": decodeAuthTicket,
 				"allocationRepair": allocationRepair,
-				"repairSize": repairSize,
+				"repairSize":       repairSize,
 
 				//smartcontract
 				"executeSmartContract": executeSmartContract,

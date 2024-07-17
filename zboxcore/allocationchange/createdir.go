@@ -5,10 +5,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/util"
-	"github.com/0chain/gosdk/zboxcore/fileref"
 	"github.com/google/uuid"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/util"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
 )
 
 type DirCreateChange struct {

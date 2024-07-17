@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/0chain/gosdk/core/zcncrypto"
-	"github.com/0chain/gosdk/zmagmacore/crypto"
+	"github.com/pewssh/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/zmagmacore/crypto"
 )
 
 type (

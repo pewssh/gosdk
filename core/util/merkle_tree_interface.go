@@ -3,8 +3,8 @@ package util
 import (
 	"encoding/hex"
 
-	"github.com/0chain/gosdk/core/encryption"
 	"github.com/minio/sha256-simd"
+	"github.com/pewssh/gosdk/core/encryption"
 )
 
 /*MerkleTreeI - a merkle tree interface required for constructing and providing verification */

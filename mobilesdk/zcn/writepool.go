@@ -4,8 +4,8 @@
 package zcn
 
 import (
-	"github.com/0chain/gosdk/core/util"
-	"github.com/0chain/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/core/util"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
 )
 
 // WritePoolLock locks given number of tokes for given duration in read pool.

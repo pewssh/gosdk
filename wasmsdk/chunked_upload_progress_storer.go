@@ -6,7 +6,7 @@ package main
 import (
 	"sync"
 
-	"github.com/0chain/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
 )
 
 // chunkedUploadProgressStorer load and save upload progress

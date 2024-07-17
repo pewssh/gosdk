@@ -9,12 +9,12 @@ import (
 	"net/url"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/constants"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/resty"
-	"github.com/0chain/gosdk/core/sys"
-	"github.com/0chain/gosdk/core/zcncrypto"
-	"github.com/0chain/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/constants"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/resty"
+	"github.com/pewssh/gosdk/core/sys"
+	"github.com/pewssh/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/zboxcore/client"
 )
 
 // ZBox  sdk client instance

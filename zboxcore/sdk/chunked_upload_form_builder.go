@@ -8,7 +8,7 @@ import (
 	"mime/multipart"
 	"sync"
 
-	"github.com/0chain/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/zboxcore/client"
 
 	"golang.org/x/crypto/sha3"
 )

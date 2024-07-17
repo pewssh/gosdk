@@ -7,13 +7,13 @@ import (
 	"strings"
 
 	zError "github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/pathutil"
-	"github.com/0chain/gosdk/core/util"
-	"github.com/0chain/gosdk/zboxcore/client"
-	"github.com/0chain/gosdk/zboxcore/fileref"
-	"github.com/0chain/gosdk/zboxcore/logger"
 	"github.com/google/uuid"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/pathutil"
+	"github.com/pewssh/gosdk/core/util"
+	"github.com/pewssh/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
+	"github.com/pewssh/gosdk/zboxcore/logger"
 )
 
 type NewFileChange struct {

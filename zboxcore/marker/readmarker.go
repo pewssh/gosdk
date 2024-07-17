@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/sys"
-	"github.com/0chain/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/sys"
+	"github.com/pewssh/gosdk/zboxcore/client"
 )
 
 type ReadMarker struct {

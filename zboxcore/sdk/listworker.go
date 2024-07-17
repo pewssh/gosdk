@@ -12,12 +12,12 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/zboxcore/blockchain"
-	"github.com/0chain/gosdk/zboxcore/fileref"
-	l "github.com/0chain/gosdk/zboxcore/logger"
-	"github.com/0chain/gosdk/zboxcore/marker"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/zboxcore/blockchain"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
+	l "github.com/pewssh/gosdk/zboxcore/logger"
+	"github.com/pewssh/gosdk/zboxcore/marker"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 )
 
 const CHUNK_SIZE = 64 * 1024

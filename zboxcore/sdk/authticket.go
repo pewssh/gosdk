@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/zboxcore/fileref"
-	"github.com/0chain/gosdk/zboxcore/marker"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
+	"github.com/pewssh/gosdk/zboxcore/marker"
 )
 
 type AuthTicket struct {

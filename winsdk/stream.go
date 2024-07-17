@@ -18,8 +18,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/0chain/gosdk/zboxcore/sdk"
 	lru "github.com/hashicorp/golang-lru/v2"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
 )
 
 var (

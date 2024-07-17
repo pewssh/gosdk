@@ -15,17 +15,17 @@ import (
 	"syscall/js"
 	"time"
 
-	"github.com/0chain/gosdk/constants"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/pathutil"
-	"github.com/0chain/gosdk/core/sys"
 	"github.com/hack-pad/safejs"
+	"github.com/pewssh/gosdk/constants"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/pathutil"
+	"github.com/pewssh/gosdk/core/sys"
 
-	"github.com/0chain/gosdk/core/transaction"
-	"github.com/0chain/gosdk/wasmsdk/jsbridge"
-	"github.com/0chain/gosdk/zboxcore/fileref"
-	"github.com/0chain/gosdk/zboxcore/sdk"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
+	"github.com/pewssh/gosdk/core/transaction"
+	"github.com/pewssh/gosdk/wasmsdk/jsbridge"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 )
 
 const FileOperationInsert = "insert"

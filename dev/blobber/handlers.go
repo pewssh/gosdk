@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/0chain/gosdk/dev/blobber/model"
 	"github.com/gorilla/mux"
+	"github.com/pewssh/gosdk/dev/blobber/model"
 )
 
 func uploadAndUpdateFile(w http.ResponseWriter, req *http.Request) {

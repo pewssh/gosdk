@@ -11,7 +11,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/0chain/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
 )
 
 type RemoteFile struct {

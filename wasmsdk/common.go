@@ -7,8 +7,8 @@ import (
 	"errors"
 	"syscall/js"
 
-	"github.com/0chain/gosdk/wasmsdk/jsbridge"
-	"github.com/0chain/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/wasmsdk/jsbridge"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
 )
 
 // PrintError is to print to stderr

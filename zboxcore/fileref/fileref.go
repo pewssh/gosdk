@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/encryption"
 	lru "github.com/hashicorp/golang-lru/v2"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/encryption"
 )
 
 const CHUNK_SIZE = 64 * 1024

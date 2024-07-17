@@ -5,9 +5,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/0chain/gosdk/zboxcore/encryption"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
 	"github.com/klauspost/reedsolomon"
+	"github.com/pewssh/gosdk/zboxcore/encryption"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 	"github.com/stretchr/testify/require"
 )
 

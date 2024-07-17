@@ -5,7 +5,7 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/0chain/gosdk/zmagmacore/errors"
+	"github.com/pewssh/gosdk/zmagmacore/errors"
 )
 
 type (

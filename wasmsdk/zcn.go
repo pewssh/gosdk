@@ -4,14 +4,14 @@
 package main
 
 import (
-	"github.com/0chain/gosdk/zboxcore/sdk"
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 type Balance struct {
-	ZCN float64 `json:"zcn"`
-	USD float64 `json:"usd"`
-	Nonce   int64   `json:"nonce"`
+	ZCN   float64 `json:"zcn"`
+	USD   float64 `json:"usd"`
+	Nonce int64   `json:"nonce"`
 }
 
 func getWalletBalance(clientId string) (*Balance, error) {
@@ -32,8 +32,8 @@ func getWalletBalance(clientId string) (*Balance, error) {
 	}
 
 	return &Balance{
-		ZCN: zcnToken,
-		USD: usd,
+		ZCN:   zcnToken,
+		USD:   usd,
 		Nonce: nonce,
 	}, nil
 }

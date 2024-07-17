@@ -13,18 +13,18 @@ import (
 	"os"
 	"path"
 
-	"github.com/0chain/gosdk/zboxapi"
-	"github.com/0chain/gosdk/zboxcore/client"
-	l "github.com/0chain/gosdk/zboxcore/logger"
-	"github.com/0chain/gosdk/zboxcore/sdk"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/zboxapi"
+	"github.com/pewssh/gosdk/zboxcore/client"
+	l "github.com/pewssh/gosdk/zboxcore/logger"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
+	"github.com/pewssh/gosdk/zcncore"
 
-	"github.com/0chain/gosdk/core/conf"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/logger"
-	"github.com/0chain/gosdk/core/sys"
-	"github.com/0chain/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/core/conf"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/logger"
+	"github.com/pewssh/gosdk/core/sys"
+	"github.com/pewssh/gosdk/core/zcncrypto"
 )
 
 var log logger.Logger

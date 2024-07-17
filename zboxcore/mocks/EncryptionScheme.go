@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	encryption "github.com/0chain/gosdk/zboxcore/encryption"
+	encryption "github.com/pewssh/gosdk/zboxcore/encryption"
 	mock "github.com/stretchr/testify/mock"
 )
 

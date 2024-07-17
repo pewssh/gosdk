@@ -5,7 +5,7 @@ package transaction
 import (
 	"context"
 
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 func AddAuthorizer(ctx context.Context, input *zcncore.AddAuthorizerPayload) (Transaction, error) {

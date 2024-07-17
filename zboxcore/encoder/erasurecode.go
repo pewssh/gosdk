@@ -6,7 +6,7 @@ import (
 
 	"errors"
 
-	l "github.com/0chain/gosdk/zboxcore/logger"
+	l "github.com/pewssh/gosdk/zboxcore/logger"
 
 	"github.com/klauspost/reedsolomon"
 )

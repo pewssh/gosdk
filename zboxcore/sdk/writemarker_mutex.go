@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/constants"
-	"github.com/0chain/gosdk/zboxcore/blockchain"
-	"github.com/0chain/gosdk/zboxcore/client"
-	"github.com/0chain/gosdk/zboxcore/logger"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
+	"github.com/pewssh/gosdk/constants"
+	"github.com/pewssh/gosdk/zboxcore/blockchain"
+	"github.com/pewssh/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/zboxcore/logger"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 )
 
 type WMLockStatus int

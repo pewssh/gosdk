@@ -10,7 +10,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/0chain/gosdk/znft"
+	"github.com/pewssh/gosdk/znft"
 )
 
 var mnemonic string

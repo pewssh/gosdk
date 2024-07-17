@@ -3,7 +3,7 @@ package sdk
 import (
 	"sync"
 
-	l "github.com/0chain/gosdk/zboxcore/logger"
+	l "github.com/pewssh/gosdk/zboxcore/logger"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
 	"github.com/hashicorp/go-retryablehttp"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 )
 
 const (

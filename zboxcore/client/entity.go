@@ -3,8 +3,8 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/0chain/gosdk/core/sys"
-	"github.com/0chain/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/core/sys"
+	"github.com/pewssh/gosdk/core/zcncrypto"
 )
 
 type SignFunc func(hash string) (string, error)

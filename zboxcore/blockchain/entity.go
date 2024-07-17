@@ -2,13 +2,13 @@ package blockchain
 
 import (
 	"encoding/json"
-	"github.com/0chain/gosdk/core/util"
+	"github.com/pewssh/gosdk/core/util"
 	"math"
 	"sync"
 	"sync/atomic"
 
-	"github.com/0chain/gosdk/core/conf"
-	"github.com/0chain/gosdk/core/node"
+	"github.com/pewssh/gosdk/core/conf"
+	"github.com/pewssh/gosdk/core/node"
 )
 
 var miners []string
@@ -51,16 +51,16 @@ type ChainConfig struct {
 
 // StakePoolSettings information.
 type StakePoolSettings struct {
-	DelegateWallet string         `json:"delegate_wallet"`
-	NumDelegates   int            `json:"num_delegates"`
-	ServiceCharge  float64        `json:"service_charge"`
+	DelegateWallet string  `json:"delegate_wallet"`
+	NumDelegates   int     `json:"num_delegates"`
+	ServiceCharge  float64 `json:"service_charge"`
 }
 
 // UpdateStakePoolSettings information.
 type UpdateStakePoolSettings struct {
-	DelegateWallet *string         `json:"delegate_wallet,omitempty"`
-	NumDelegates   *int            `json:"num_delegates,omitempty"`
-	ServiceCharge  *float64        `json:"service_charge,omitempty"`
+	DelegateWallet *string  `json:"delegate_wallet,omitempty"`
+	NumDelegates   *int     `json:"num_delegates,omitempty"`
+	ServiceCharge  *float64 `json:"service_charge,omitempty"`
 }
 
 type ValidationNode struct {

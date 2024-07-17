@@ -12,8 +12,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/zboxcore/marker"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/zboxcore/marker"
 )
 
 func getZcnWorkDir() (string, error) {

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/0chain/gosdk/zcnbridge/wallet"
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/zcnbridge/wallet"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 type BlobberAggregate struct {

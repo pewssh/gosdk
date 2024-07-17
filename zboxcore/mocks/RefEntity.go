@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	common "github.com/0chain/gosdk/core/common"
+	common "github.com/pewssh/gosdk/core/common"
 
 	mock "github.com/stretchr/testify/mock"
 )

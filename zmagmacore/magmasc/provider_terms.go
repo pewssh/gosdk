@@ -5,9 +5,9 @@ import (
 
 	magma "github.com/magma/augmented-networks/accounting/protos"
 
-	"github.com/0chain/gosdk/core/util"
-	"github.com/0chain/gosdk/zmagmacore/errors"
-	"github.com/0chain/gosdk/zmagmacore/time"
+	"github.com/pewssh/gosdk/core/util"
+	"github.com/pewssh/gosdk/zmagmacore/errors"
+	"github.com/pewssh/gosdk/zmagmacore/time"
 )
 
 type (

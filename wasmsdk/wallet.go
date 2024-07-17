@@ -6,9 +6,9 @@ package main
 import (
 	"errors"
 
-	"github.com/0chain/gosdk/core/zcncrypto"
-	"github.com/0chain/gosdk/zboxcore/client"
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 func setWallet(clientID, publicKey, privateKey, mnemonic string) error {

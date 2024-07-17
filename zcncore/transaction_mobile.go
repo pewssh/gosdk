@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/block"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/node"
-	"github.com/0chain/gosdk/core/transaction"
-	"github.com/0chain/gosdk/core/util"
+	"github.com/pewssh/gosdk/core/block"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/node"
+	"github.com/pewssh/gosdk/core/transaction"
+	"github.com/pewssh/gosdk/core/util"
 )
 
 const (

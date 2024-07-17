@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	thrown "github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/sys"
+	"github.com/pewssh/gosdk/core/sys"
 	"github.com/spf13/viper"
 )
 

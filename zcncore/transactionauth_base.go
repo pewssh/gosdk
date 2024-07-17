@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/node"
-	"github.com/0chain/gosdk/core/sys"
-	"github.com/0chain/gosdk/core/transaction"
-	"github.com/0chain/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/core/node"
+	"github.com/pewssh/gosdk/core/sys"
+	"github.com/pewssh/gosdk/core/transaction"
+	"github.com/pewssh/gosdk/core/zcncrypto"
 )
 
 type TransactionWithAuth struct {

@@ -4,8 +4,8 @@
 package zcncore
 
 import (
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/zcncrypto"
 )
 
 // GetWallet get a wallet object from a wallet string

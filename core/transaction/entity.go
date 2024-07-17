@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/util"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/util"
 )
 
 const TXN_SUBMIT_URL = "v1/transaction/put"

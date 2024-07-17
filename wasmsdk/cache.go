@@ -8,10 +8,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/0chain/gosdk/wasmsdk/jsbridge"
-	"github.com/0chain/gosdk/zboxcore/client"
-	"github.com/0chain/gosdk/zboxcore/sdk"
 	lru "github.com/hashicorp/golang-lru/v2"
+	"github.com/pewssh/gosdk/wasmsdk/jsbridge"
+	"github.com/pewssh/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
 )
 
 type cachedAllocation struct {

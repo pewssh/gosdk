@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/zcncore"
 
-	"github.com/0chain/gosdk/core/zcncrypto"
-	"github.com/0chain/gosdk/zcnbridge/authorizer"
+	"github.com/pewssh/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/zcnbridge/authorizer"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

@@ -3,9 +3,9 @@ package block
 import (
 	"fmt"
 
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/transaction"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/transaction"
 )
 
 type Key []byte

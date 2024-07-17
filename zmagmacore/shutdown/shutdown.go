@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/0chain/gosdk/zmagmacore/log"
+	"github.com/pewssh/gosdk/zmagmacore/log"
 )
 
 type (

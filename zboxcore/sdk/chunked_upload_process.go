@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 
 	thrown "github.com/0chain/errors"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 )
 
 // createUploadProgress create a new UploadProgress

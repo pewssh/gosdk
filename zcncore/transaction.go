@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/block"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/node"
-	"github.com/0chain/gosdk/core/transaction"
-	"github.com/0chain/gosdk/core/util"
+	"github.com/pewssh/gosdk/core/block"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/node"
+	"github.com/pewssh/gosdk/core/transaction"
+	"github.com/pewssh/gosdk/core/util"
 )
 
 type Provider int
@@ -192,9 +192,9 @@ type CreateAllocationRequest struct {
 }
 
 type StakePoolSettings struct {
-	DelegateWallet *string         `json:"delegate_wallet,omitempty"`
-	NumDelegates   *int            `json:"num_delegates,omitempty"`
-	ServiceCharge  *float64        `json:"service_charge,omitempty"`
+	DelegateWallet *string  `json:"delegate_wallet,omitempty"`
+	NumDelegates   *int     `json:"num_delegates,omitempty"`
+	ServiceCharge  *float64 `json:"service_charge,omitempty"`
 }
 
 type Terms struct {
@@ -236,9 +236,9 @@ type AuthorizerHealthCheckPayload struct {
 }
 
 type AuthorizerStakePoolSettings struct {
-	DelegateWallet string         `json:"delegate_wallet"`
-	NumDelegates   int            `json:"num_delegates"`
-	ServiceCharge  float64        `json:"service_charge"`
+	DelegateWallet string  `json:"delegate_wallet"`
+	NumDelegates   int     `json:"num_delegates"`
+	ServiceCharge  float64 `json:"service_charge"`
 }
 
 type AuthorizerConfig struct {

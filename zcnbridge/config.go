@@ -8,9 +8,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 
-	"github.com/0chain/gosdk/zcnbridge/log"
-	"github.com/0chain/gosdk/zcnbridge/transaction"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/pewssh/gosdk/zcnbridge/log"
+	"github.com/pewssh/gosdk/zcnbridge/transaction"
 
 	"github.com/spf13/viper"
 )

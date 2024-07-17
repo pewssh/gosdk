@@ -12,9 +12,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/0chain/gosdk/core/transaction"
-	"github.com/0chain/gosdk/wasmsdk/jsbridge"
-	"github.com/0chain/gosdk/zboxcore/sdk"
+	"github.com/pewssh/gosdk/core/transaction"
+	"github.com/pewssh/gosdk/wasmsdk/jsbridge"
+	"github.com/pewssh/gosdk/zboxcore/sdk"
 )
 
 const TOKEN_UNIT int64 = 1e10

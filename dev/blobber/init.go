@@ -3,8 +3,8 @@ package blobber
 import (
 	"net/http"
 
-	"github.com/0chain/gosdk/dev/mock"
 	"github.com/gorilla/mux"
+	"github.com/pewssh/gosdk/dev/mock"
 )
 
 func RegisterHandlers(r *mux.Router, m mock.ResponseMap) {

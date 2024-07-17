@@ -14,17 +14,17 @@ import (
 	"github.com/0chain/errors"
 	"github.com/google/uuid"
 
-	"github.com/0chain/gosdk/constants"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/util"
-	"github.com/0chain/gosdk/zboxcore/client"
-	"github.com/0chain/gosdk/zboxcore/fileref"
-	"github.com/0chain/gosdk/zboxcore/logger"
+	"github.com/pewssh/gosdk/constants"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/util"
+	"github.com/pewssh/gosdk/zboxcore/client"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
+	"github.com/pewssh/gosdk/zboxcore/logger"
 
-	"github.com/0chain/gosdk/zboxcore/allocationchange"
-	"github.com/0chain/gosdk/zboxcore/blockchain"
-	l "github.com/0chain/gosdk/zboxcore/logger"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
+	"github.com/pewssh/gosdk/zboxcore/allocationchange"
+	"github.com/pewssh/gosdk/zboxcore/blockchain"
+	l "github.com/pewssh/gosdk/zboxcore/logger"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 )
 
 type CopyRequest struct {

@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
 	"github.com/klauspost/reedsolomon"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 )
 
 // ChunkedUploadOption set stream option

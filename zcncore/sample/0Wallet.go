@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 type StatusUI struct {

@@ -1,6 +1,6 @@
 package sdk
 
-import "github.com/0chain/gosdk/zboxcore/zboxutil"
+import "github.com/pewssh/gosdk/zboxcore/zboxutil"
 
 // LiveUpload live streaming video upload manager
 type LiveUpload struct {

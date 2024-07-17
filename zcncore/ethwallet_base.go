@@ -11,9 +11,6 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/0chain/gosdk/core/tokenrate"
-	"github.com/0chain/gosdk/core/zcncrypto"
-	hdwallet "github.com/0chain/gosdk/zcncore/ethhdwallet"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
@@ -21,6 +18,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/params"
+	"github.com/pewssh/gosdk/core/tokenrate"
+	"github.com/pewssh/gosdk/core/zcncrypto"
+	hdwallet "github.com/pewssh/gosdk/zcncore/ethhdwallet"
 	"golang.org/x/crypto/sha3"
 )
 

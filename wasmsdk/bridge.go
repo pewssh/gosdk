@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/0chain/gosdk/zcnbridge"
-	"github.com/0chain/gosdk/zcnbridge/errors"
-	"github.com/0chain/gosdk/zcnbridge/log"
-	"github.com/0chain/gosdk/zcnbridge/transaction"
-	"github.com/0chain/gosdk/zcnbridge/wallet"
-	"github.com/0chain/gosdk/zcncore"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/pewssh/gosdk/zcnbridge"
+	"github.com/pewssh/gosdk/zcnbridge/errors"
+	"github.com/pewssh/gosdk/zcnbridge/log"
+	"github.com/pewssh/gosdk/zcnbridge/transaction"
+	"github.com/pewssh/gosdk/zcnbridge/wallet"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 var bridge *zcnbridge.BridgeClient

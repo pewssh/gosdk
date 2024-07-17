@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/0chain/gosdk/core/sys"
 	"github.com/h2non/filetype"
+	"github.com/pewssh/gosdk/core/sys"
 )
 
 var (

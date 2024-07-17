@@ -13,10 +13,10 @@ import (
 	"strings"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/sys"
-	"github.com/0chain/gosdk/zboxcore/fileref"
-	l "github.com/0chain/gosdk/zboxcore/logger"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/sys"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
+	l "github.com/pewssh/gosdk/zboxcore/logger"
 )
 
 // For sync app
@@ -135,7 +135,7 @@ func addLocalFileList(root string, fMap map[string]FileInfo, dirList *[]string, 
 			l.Logger.Error("getting relative path failed", err)
 		}
 		// Allocation paths are like unix, so we modify all the backslashes
-		// to forward slashes. File path in windows contain backslashes. 
+		// to forward slashes. File path in windows contain backslashes.
 		lPath = "/" + strings.ReplaceAll(lPath, "\\", "/")
 		// Exclude
 		if _, ok := exclMap[lPath]; ok {

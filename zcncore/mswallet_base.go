@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/encryption"
-	"github.com/0chain/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/core/encryption"
+	"github.com/pewssh/gosdk/core/zcncrypto"
 )
 
 // MSVoteCallback callback definition multisig Vote function

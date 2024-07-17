@@ -3,10 +3,10 @@ package magmasc
 import (
 	"encoding/json"
 
-	"github.com/0chain/gosdk/core/util"
-	"github.com/0chain/gosdk/zmagmacore/config"
-	"github.com/0chain/gosdk/zmagmacore/errors"
-	"github.com/0chain/gosdk/zmagmacore/node"
+	"github.com/pewssh/gosdk/core/util"
+	"github.com/pewssh/gosdk/zmagmacore/config"
+	"github.com/pewssh/gosdk/zmagmacore/errors"
+	"github.com/pewssh/gosdk/zmagmacore/node"
 )
 
 type (

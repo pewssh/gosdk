@@ -4,7 +4,7 @@
 package zcncore
 
 import (
-	"github.com/0chain/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/core/zcncrypto"
 )
 
 type Wallet interface {
@@ -25,7 +25,7 @@ func (w *wallet) Sign(hash string) (string, error) {
 }
 
 func GetWalletBalance(id string) (int64, error) {
-	balance, _ , err := getWalletBalance(id)
+	balance, _, err := getWalletBalance(id)
 	if err != nil {
 		return 0, err
 	}

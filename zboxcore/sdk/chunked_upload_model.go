@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/zboxcore/allocationchange"
-	"github.com/0chain/gosdk/zboxcore/encryption"
-	"github.com/0chain/gosdk/zboxcore/fileref"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
 	"github.com/google/uuid"
 	"github.com/klauspost/reedsolomon"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/zboxcore/allocationchange"
+	"github.com/pewssh/gosdk/zboxcore/encryption"
+	"github.com/pewssh/gosdk/zboxcore/fileref"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -15,8 +15,8 @@ import (
 	"time"
 
 	thrown "github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/resty"
-	"github.com/0chain/gosdk/core/util"
+	"github.com/pewssh/gosdk/core/resty"
+	"github.com/pewssh/gosdk/core/util"
 )
 
 var (
@@ -230,7 +230,7 @@ func (tq *TransactionQuery) getRandomSharderWithHealthcheck(ctx context.Context)
 	return "", ErrNoOnlineSharders
 }
 
-//getRandomMiner returns a random miner
+// getRandomMiner returns a random miner
 func (tq *TransactionQuery) getRandomMiner(ctx context.Context) (string, error) {
 
 	if tq.miners == nil || len(tq.miners) == 0 {
@@ -536,7 +536,7 @@ func GetInfoFromSharders(urlSuffix string, op int, cb GetInfoCallback) {
 	qr, err := tq.GetInfo(context.TODO(), urlSuffix)
 	if err != nil {
 		if qr != nil && op == OpGetMintNonce {
-			logging.Debug("OpGetMintNonce QueryResult error", "; Content = ",  qr.Content, "; Error = ", qr.Error.Error(), "; StatusCode = ", qr.StatusCode)
+			logging.Debug("OpGetMintNonce QueryResult error", "; Content = ", qr.Content, "; Error = ", qr.Error.Error(), "; StatusCode = ", qr.StatusCode)
 			cb.OnInfoAvailable(op, qr.StatusCode, "", qr.Error.Error())
 			return
 		}

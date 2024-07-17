@@ -15,8 +15,8 @@ import (
 	"time"
 
 	thrown "github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/resty"
-	"github.com/0chain/gosdk/core/util"
+	"github.com/pewssh/gosdk/core/resty"
+	"github.com/pewssh/gosdk/core/util"
 )
 
 var (

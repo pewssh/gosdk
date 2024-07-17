@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 // Split keys from the primary master key

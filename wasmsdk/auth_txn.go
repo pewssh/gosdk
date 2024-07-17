@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"syscall/js"
 
-	"github.com/0chain/gosdk/core/sys"
+	"github.com/pewssh/gosdk/core/sys"
 )
 
 type AuthCallbackFunc func(msg string) string

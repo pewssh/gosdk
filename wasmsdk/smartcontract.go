@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/0chain/gosdk/core/transaction"
-	"github.com/0chain/gosdk/zcncore"
+	"github.com/pewssh/gosdk/core/transaction"
+	"github.com/pewssh/gosdk/zcncore"
 )
 
 func faucet(methodName, input string, token float64) (*transaction.Transaction, error) {

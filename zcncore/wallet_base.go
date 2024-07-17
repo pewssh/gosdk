@@ -16,16 +16,16 @@ import (
 	stdErrors "errors"
 
 	"github.com/0chain/errors"
-	"github.com/0chain/gosdk/core/common"
-	"github.com/0chain/gosdk/core/conf"
-	"github.com/0chain/gosdk/core/logger"
-	"github.com/0chain/gosdk/core/tokenrate"
-	"github.com/0chain/gosdk/core/util"
-	"github.com/0chain/gosdk/core/version"
-	"github.com/0chain/gosdk/core/zcncrypto"
-	"github.com/0chain/gosdk/zboxcore/encryption"
-	"github.com/0chain/gosdk/zboxcore/zboxutil"
 	openssl "github.com/Luzifer/go-openssl/v3"
+	"github.com/pewssh/gosdk/core/common"
+	"github.com/pewssh/gosdk/core/conf"
+	"github.com/pewssh/gosdk/core/logger"
+	"github.com/pewssh/gosdk/core/tokenrate"
+	"github.com/pewssh/gosdk/core/util"
+	"github.com/pewssh/gosdk/core/version"
+	"github.com/pewssh/gosdk/core/zcncrypto"
+	"github.com/pewssh/gosdk/zboxcore/encryption"
+	"github.com/pewssh/gosdk/zboxcore/zboxutil"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 
@@ -583,7 +583,7 @@ func getWalletBalance(clientId string) (common.Balance, int64, error) {
 	cb.Wait()
 
 	var clientState struct {
-		Nonce   int64   `json:"nonce"`
+		Nonce int64 `json:"nonce"`
 	}
 	err = json.Unmarshal([]byte(cb.info), &clientState)
 	if err != nil {
@@ -861,10 +861,10 @@ func getMinersInternal(cb GetInfoCallback, active, stakable bool, limit, offset 
 	}
 
 	var url = withParams(GET_MINERSC_MINERS, Params{
-		"active": strconv.FormatBool(active),
+		"active":   strconv.FormatBool(active),
 		"stakable": strconv.FormatBool(stakable),
-		"offset": strconv.FormatInt(int64(offset), 10),
-		"limit":  strconv.FormatInt(int64(limit), 10),
+		"offset":   strconv.FormatInt(int64(offset), 10),
+		"limit":    strconv.FormatInt(int64(limit), 10),
 	})
 
 	go GetInfoFromSharders(url, 0, cb)
@@ -876,7 +876,7 @@ func getMinersInternal(cb GetInfoCallback, active, stakable bool, limit, offset 
 //   - limit: how many sharders should be fetched
 //   - offset: how many sharders should be skipped
 //   - active: only fetch active sharders
-//	 - stakable: only fetch sharders that can be staked 
+//   - stakable: only fetch sharders that can be staked
 func GetSharders(cb GetInfoCallback, limit, offset int, active, stakable bool) {
 	getShardersInternal(cb, active, stakable, limit, offset)
 }
@@ -887,10 +887,10 @@ func getShardersInternal(cb GetInfoCallback, active, stakable bool, limit, offse
 	}
 
 	var url = withParams(GET_MINERSC_SHARDERS, Params{
-		"active": strconv.FormatBool(active),
+		"active":   strconv.FormatBool(active),
 		"stakable": strconv.FormatBool(stakable),
-		"offset": strconv.FormatInt(int64(offset), 10),
-		"limit":  strconv.FormatInt(int64(limit), 10),
+		"offset":   strconv.FormatInt(int64(offset), 10),
+		"limit":    strconv.FormatInt(int64(limit), 10),
 	})
 
 	go GetInfoFromSharders(url, 0, cb)
@@ -1186,9 +1186,9 @@ func getBlobbersInternal(cb GetInfoCallback, active bool, limit, offset int, sta
 	}
 
 	var url = withParams(STORAGESC_GET_BLOBBERS, Params{
-		"active": strconv.FormatBool(active),
-		"offset": strconv.FormatInt(int64(offset), 10),
-		"limit":  strconv.FormatInt(int64(limit), 10),
+		"active":   strconv.FormatBool(active),
+		"offset":   strconv.FormatInt(int64(offset), 10),
+		"limit":    strconv.FormatInt(int64(limit), 10),
 		"stakable": strconv.FormatBool(stakable),
 	})
 
